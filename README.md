@@ -9,7 +9,7 @@ Reach for this when you have an audience and expertise and want to ship a paid c
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/course-creator-launch-system](https://skillme.dev/pack/course-creator-launch-system) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/course-creator-launch-system`
+- **With the skills CLI:** `npx skills add SkillMedev/course-creator-launch-system`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
