@@ -1,16 +1,17 @@
 # Course Creator Launch System
 
-**For creators: turn expertise into a course and launch it to your list - outline to open cart.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For creators: turn expertise into a course and launch it to your list - outline to open cart.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-course-creator-launch-system).
 
 Reach for this when you have an audience and expertise and want to ship a paid course instead of endlessly planning one. It runs the build-and-launch arc: architect the course backward from the student transformation (designed against the brutal completion-rate averages), map the curriculum and individual lessons, write the long-form sales page and the open-cart email sequence that does the actual selling, run a webinar funnel for the live-launch spike, quiz students to lock learning in, and build the community rituals that drive completion and harvest testimonials for the next launch. One worked example - a consultant launching a $297 course to an 8,000-subscriber list - threads through every skill.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/course-creator-launch-system](https://skillme.dev/pack/course-creator-launch-system) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/course-creator-launch-system?utm_source=github&utm_medium=readme&utm_campaign=pack-course-creator-launch-system) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add course-outline-architect curriculum-mapper lesson-plan-builder course-sales-page launch-email-sequence webinar-funnel-builder quiz-generator community-engagement-playbook testimonial-capture-interview --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/course-creator-launch-system`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -27,4 +28,4 @@ Reach for this when you have an audience and expertise and want to ship a paid c
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-course-creator-launch-system).
